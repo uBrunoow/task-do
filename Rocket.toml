@@ -1,0 +1,7 @@
+[default]
+address = "127.0.0.1"
+port = 8000
+databases = ["postgres_db"]
+
+[global.databases.postgres_db]
+url = "postgresql://postgres:postgres@localhost:5432/task-do-db"
