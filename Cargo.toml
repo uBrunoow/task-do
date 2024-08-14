@@ -13,3 +13,4 @@ bcrypt = "0.15.0"
 dotenvy = "0.15.0"
 diesel = { version = "2.2.2", features = ["postgres", "r2d2"] }
 jsonwebtoken = "9.3.0"
+chrono = { version = "0.4", features = ["serde"] }
